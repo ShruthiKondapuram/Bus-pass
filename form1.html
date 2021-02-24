@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BUS PASS FORM</title>
+	<style>
+		.container{background-color:#dfe6ff;
+			       text-align: center;
+			       margin-left:5%;
+			       margin-right:5%;
+			       border-radius:25px;}
+	    legend{color: white;
+			   background-color: #0f4c81;
+			   padding-top:0.2%;
+			   padding-bottom:0.2%;
+			   padding-left:0.2%;
+		       padding-right:0.2%;
+			       }
+
+        .space{padding-left: 50px;
+               padding-right:50px}
+       form{margin-right: 100px;
+       	    margin-left: 100px;
+       }
+       .button{ margin-left:500px; }
+       .button1{margin-right:500px; }
+       .body{background-color:#ffffff;}
+	.fieldset{background-color: #fafafa;}
+
+</style>
+</head>
+<body>
+	<form>
+	<div class="container">
+	<h2 style= "color: #21209c;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+	<h2>GENERAL BUS PASS APPLICATION</h2>
+ </div>
+<fieldset class="fieldset">
+	<legend class="legend">Applicant Details</legend>
+	<table>
+		<tr>
+	<td><label class="space">Full Name</label></td>
+	<td><input class="space" type="text" name="name" required="required"></td>
+	<td><label class="space">Father's/Guardian's Name</label></td>
+	<td><input class="space" type="text" name="name" required="required"></td></tr>
+
+	<tr><td><label class="space">Date of birth</label></td>
+	<td><input class="space" type="number" name="dob" required="required"></td>
+	<td><label class="space">Gender</label></td>
+    <td><input  type="radio" name="Gender" required="required" value="Female">Female</label>
+	<input type="radio" name="Gender" required="required" value="Male">Male</label>
+</td></tr>
+
+<tr><td><label class="space">Age</label></td>
+	<td><input class="space" type="number" name="Age" required="required"></td>
+	<td><label class="space">Aadhar No:</label></td>
+<td><input class="space" type="number" name="Aadhar" required="required"></td></tr>
+
+	<tr><td><label class="space">Mobile No:</label></td>
+	<td><input class="space" type="number" name="Mobile No" required="required"></td>
+	<td><label class="space">Email Id</label></td>
+	<td><input type="email" class="space" name="email" required="required"></td></tr>
+    <tr><td><label class="space">Photos</label></td>
+    <td><input class="space" type="file" name="Photos" required="required"></td>
+
+    </tr>
+</table>
+</fieldset>
+<fieldset class="fieldset"><legend class= "legend">Residential Address</legend>
+	<table>
+		<tr><td><label class="space">Applicant's Address</label></td>
+			<td><textarea rows="6" cols="10" name="Address" class="space" required="required"></textarea></td>
+			<td><label class="space">District</label></td>
+			<td><select class="space"  required="required">
+				<option>---Select---</option>
+				<option>ADILABAD</option>
+		        <option>HYDERABAD</option>
+				<option>KARIMNAGAR</option>
+				<option>KHAMMAMM</option>
+				<option>MAHABOOBNAGAR</option>
+				<option>RANGAREDDY</option>
+				<option>MEDAK</option>
+				<option>NALGONDA</option>
+				<option>NIZAMBAD</option>
+				<option>WARANGAL</option>
+			</select></td></tr>
+			<tr>
+<td><label class="space">Mandal</label></td>
+			<td><select class="space" required="required">
+				<option>---Select---</option>
+				<option>ADILABAD</option>
+		        <option>HYDERABAD</option>
+				<option>KARIMNAGAR</option>
+				<option>KHAMMAMM</option>
+				<option>MAHABOOBNAGAR</option>
+				<option>RANGAREDDY</option>
+				<option>MEDAK</option>
+				<option>NALGONDA</option>
+				<option>NIZAMBAD</option>
+				<option>WARANGAL</option>
+			</select></td>
+			<td><label class="space">Villages</label></td>
+			<td><select class="space" required="required">
+				<option>---Select---</option>
+				<option>ADILABAD</option>
+		        <option>HYDERABAD</option>
+				<option>KARIMNAGAR</option>
+				<option>KHAMMAMM</option>
+				<option>MAHABOOBNAGAR</option>
+				<option>RANGAREDDY</option>
+				<option>MEDAK</option>
+				<option>NALGONDA</option>
+				<option>NIZAMBAD</option>
+				<option>WARANGAL</option>
+			</select></td></tr>
+			<tr><td><label class="space">Pincode</label></td>
+            <td><input class="space" type="number" name="Pincode" required="required"></td>
+			</tr></table></fieldset>
+			<fieldset class="fieldset"><legend class="legend">Pass Type Details</legend>
+				<table>
+				<tr><td><label class="space">Select City</label></td>
+			<td><select class="space"required="required">
+				<option>---Select---</option>
+				<option>ADILABAD</option>
+		        <option>HYDERABAD</option>
+				<option>KARIMNAGAR</option>
+				<option>KHAMMAMM</option>
+				<option>MAHABOOBNAGAR</option>
+				<option>RANGAREDDY</option>
+				<option>MEDAK</option>
+				<option>NALGONDA</option>
+				<option>NIZAMBAD</option>
+				<option>WARANGAL</option>
+			</select></td></tr>
+			<tr><td><label class="space">Pass Type</label></td>
+			<td><select class="space" required="required">
+				<option>---Select---</option>
+		        <option>GREATER PASS</option>
+				<option>ORIDINARY PASS</option>
+				<option>METRO EXPRESS PASS</option>
+				<option>METRO DELUX PASS</option>
+			</select></td></tr></table></fieldset>
+			<fieldset class="fieldset"><legend class="legend">Mode of Payment and Pass Collection</legend><table>
+				<tr><td><label class="space">Select Payment Mode</label></td>
+			<td><select class="space" required="required">
+				<option>Select Payment Mode</option>
+		        <option>ONLINE PAYMENT </option>
+				<option>PAY AT CENTER</option>
+			</select></td></tr>
+					<tr><td><label class="space">Select Pass Delivery Mode</label></td>
+			<td><select class="space" required="required">
+				<option>Select Pass Delivery Mode</option>
+		        <option>At Counter</option>
+			</select></td></tr></table></fieldset>
+           <table><tr>
+           <td><input class=button type="submit" name="submit" required="required"></td><td><input class=button1 type="reset" name="reset" required="required"></td></tr></table></form>
+		   </body>
+		   </html>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  		
+
+
+
+
+
+
+  
